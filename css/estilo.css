@@ -1,0 +1,64 @@
+.menu-esquerdo {
+    margin-top: 50px;
+    
+    border-radius: 5px;
+    padding: 20px 0 20px 0;
+    
+}
+
+.menu-esquerdo ul li {
+    padding: 5px;
+}   
+
+.menu-esquerdo ul li a {
+    text-decoration: none;
+}   
+
+
+.rodape {
+    background-color: #142c68; min-height: 100px; margin-top: 5%; padding: 20px;
+}
+
+
+.submenu {
+    min-height:65px; background-color: #e5e5e5;
+}
+
+
+.menu {
+    min-height:65px; background-color: #142c68;
+}
+
+.menu ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
+
+.logo-ime {
+    background: url('../images/logo_ime_reduzido.png') no-repeat;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    width: 181px;
+}
+
+.header {
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+@media all and (min-width: 1024px) {
+    .logo-ime {
+        background: url('../images/logo_ime.png') no-repeat;
+        width: 397px;
+    }
+}
