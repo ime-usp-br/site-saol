@@ -62,3 +62,11 @@
         width: 397px;
     }
 }
+
+.card:hover .info h5 {
+    text-decoration: underline;
+  }
+
+.card:hover .info p {
+    text-decoration: underline;
+}
